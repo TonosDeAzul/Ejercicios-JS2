@@ -5,8 +5,10 @@ numero es par o impar.
 
 let num = parseInt(prompt("Ingrese un número"));
 
-function numParOImpar(num){
-    num % 2 != 0 ? console.log(`El número ${num} es impar`) : console.log(`El número ${num} es par`);
-};
+function numParOImpar(num) {
+  num % 2 != 0
+    ? console.log(`El número ${num} es impar`)
+    : console.log(`El número ${num} es par`);
+}
 
 numParOImpar(num);

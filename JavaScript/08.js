@@ -4,12 +4,12 @@ Crea una función que tome una cadena como parámetro y devuelva la cadena en or
 
 let palabra = prompt("Ingrese una palabra");
 
-function invertirCadena(cadena){
-    let almacenCadena = "";
-    for(let i = 0; i < cadena.length; i++){
-        almacenCadena += cadena[cadena.length - (i + 1)];
-    }
-    console.log(almacenCadena);
+function invertirCadena(cadena) {
+  let almacenCadena = "";
+  for (let i = 0; i < cadena.length; i++) {
+    almacenCadena += cadena[cadena.length - (i + 1)];
+  }
+  console.log(almacenCadena);
 }
 
 invertirCadena(palabra);

@@ -4,9 +4,9 @@ Crea una función para validar un pin que acepte 4 o 6 caracteres de longitud, s
 
 let contrasena = prompt("Ingrese su PIN (solo números)");
 
-function verificar(pin){
-    let regex = /^[\d]{4,6}$/;
-    console.log(regex.test(pin));
+function verificar(pin) {
+  let regex = /^[\d]{4,6}$/;
+  console.log(regex.test(pin));
 }
 
 verificar(contrasena);
